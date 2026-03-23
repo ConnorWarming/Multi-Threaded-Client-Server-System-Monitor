@@ -1,37 +1,43 @@
-
----
-
-# Multi-Threaded Client-Server System Monitor
-
-```markdown
 # Multi-Threaded Client-Server System Monitor
 
 ## Overview
-A Java-based client-server application that executes remote system commands and measures performance using concurrent requests.
+A Java-based client-server application that executes system commands remotely and measures performance using concurrent requests.
 
 ## Features
-- Client-server communication using sockets
-- Multi-threaded request handling
-- Thread pool implementation on server
-- Execute system commands remotely:
-  - Date/Time
-  - Uptime
-  - Memory usage
-  - Processes
+- Socket-based communication
+- Multi-threaded server
+- Thread pool for concurrent requests
+- Remote system command execution
 - Performance measurement (turnaround time)
-- Concurrent request testing
 
 ## Technologies Used
 - Java
-- Sockets (Networking)
+- Sockets
 - Multithreading
 - ExecutorService
 
 ## How to Run
 
-### Compile
-```bash
-javac Server.java
-javac Client.java
-java Server
-java Client
+Compile:
+javac Server.java  
+javac Client.java  
+
+Run Server:
+java Server  
+
+Run Client:
+java Client  
+
+## Screenshots
+
+### Server Running
+![Server](Server.png)
+
+### Client - Date and Time
+![Client Date and Time](Client_Date_and_Time.png)
+
+### Client - Uptime
+![Client Uptime](Client_Uptime.png)
+
+## Author
+Connor Warming
