@@ -33,3 +33,7 @@ A Java-based client-server application that executes remote system commands and 
 ```bash
 javac Server.java
 javac Client.java
+
+### Run
+java Server
+java Client
